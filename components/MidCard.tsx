@@ -3,9 +3,10 @@
         title?: string;
         logo?: string;
         text?: string;
+        text2?: string;
        
     }
-    export default function MidCard({logo,title,text }: Props) {
+export default function MidCard({ logo, title, text, text2 }: Props) {
 
     return (
         <div className="midCard">
@@ -17,6 +18,7 @@
 
             <div className="midCard__content__text">
             <p>{text}</p>
+            <p>{text2}</p>
             </div>
             <div className="midCard__content__button">
             </div>

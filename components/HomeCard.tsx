@@ -2,10 +2,10 @@
 interface Props extends React.HTMLAttributes<Element> {
     title?: string;
     description?: string;
-    image?: string;
+    image: string;
 
 }
-export default function HomeCard({ title, description, image }: Props) {
+export default function HomeCard({ title, description, image, }: Props) {
 
     return (
         <div className="home-card">

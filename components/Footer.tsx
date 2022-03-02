@@ -3,7 +3,13 @@ import React, { Component } from 'react'
 export class Footer extends Component {
   render() {
     return (
-      <div style={{backgroundColor:"purple", height:"5em"}}> Follow us for updates </div>
+      <div className='footer' >
+
+        <h2> Follow us for updates </h2>
+        <img src='insta-logo.png'/>
+        <p className='footer-text'>@climatescienceolympiad</p>
+
+      </div>
     )
   }
 }

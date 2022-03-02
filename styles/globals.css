@@ -1,6 +1,7 @@
 
-* {
-  box-sizing: border-box;
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 p{
@@ -9,43 +10,36 @@ p{
 }
 
 .container{
-  border: #6231EC solid;
-  width:50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:50%;  
   border-radius: 50px;
   text-align: center;
-
+  padding: 1%;
+  margin-left: 25%;
 }
-
 .rad-label {
   width: 438px;
   height: 35.44px;
   display: flex;
   align-items: center;
   border-radius: 100px;
-  padding: 14px 16px;
+  /* padding: 14px 16px; */
   margin: 10px 0;
   cursor: pointer;
   transition: .3s;
 
-  margin-left: 65px;
+  margin-left: 12%;
   -webkit-box-shadow: 5px 5px 10px rgb(177, 177, 177);
   -moz-box-shadow: 5px 5px 10px rgb(177, 177, 177);
 }
 
 .rad-label:hover,
 .rad-label:focus-within {
-  background: hsla(0, 0%, 80%, .14);
+  background: rgba(0, 0, 0, 0.082);
 }
 
 .rad-input {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 1px;
-  height: 1px;
   opacity: 0;
-  z-index: -1;
-  text-align: center;
 }
 
 .rad-design {
@@ -88,8 +82,7 @@ p{
 }
 .rad-input:checked~{
   color: hsl(0, 0%, 8%);
-  width: inherit;
-  height: inherit;
+  
 }
 
 nav {
@@ -99,9 +92,16 @@ margin-bottom: 80px;
 }
 nav a{
   margin: 5%;
- 
 }
 nav a > img {
 width:132px;
 height:72px;
+}
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
 }

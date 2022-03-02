@@ -22,7 +22,7 @@ export default function  Content  () {
     return (
         <div className="container">
           
-                <ViewMore>
+                <ViewMore className="viewmore-btn">
                     {Array(4).fill('/logo.svg').map((logo, i) => (<img src={logo} alt="logo" key={i} />))}
                     <p> Campaign partners</p>
                     <hr />
