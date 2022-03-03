@@ -74,16 +74,16 @@
 
 }
 .rad-input:checked~.rad-text {
-  color: hsl(0, 0%, 8%);
-  
+  color: #130642c0;
+  font-weight:500;
 }
 .rad-input:checked~{
   color: hsl(0, 0%, 8%);
   
 }
 // after the checkbox is checked, the content fades out then reappears
-.rad-input:checked~.rad-text {
-  // opacity: 0;
+.rad-input:checked~.rad-input {
+  opacity: 1;
   transition: .3s;
 }
 .rad-input:checked~.rad-text:after {
