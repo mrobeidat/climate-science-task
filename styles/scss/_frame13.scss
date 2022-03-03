@@ -1,96 +1,115 @@
-
 #frame13{
-    float: right;
-    margin-top: -10.5%;
-    margin-right: 15% ;
-    p{
-      color:#818181
-    }
+  float: right;
+  margin-top: -10.5%;
+  margin-right: 15% ;
+  p{
+    color:#818181;
+    position:initial;
+    // margin-right: 70px;
+  }
 }
 
 .container{
-    margin-top: -7%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:30%;  
-    border-radius: 50px;
-    text-align: center;
-    padding: 1%;
+  margin-top: -7%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width:25%;  
+  border-radius: 50px;
+  text-align: center;
+  padding: 1%;
+      .rad-label {
+          width: 320px;
+          height: 35.44px;
+          display: flex;
+          align-items: center;
+          border-radius: 100px;
+          margin: 10px 0;
+          cursor: pointer;
 
-          
-    // @-webkit-keyframes alternate-reverse{
-    //   0%{height:100px}
-    //   10%{height:50px}
-    // }
-    
-        .rad-label {
-            width: 320px;
-            height: 35.44px;
-            display: flex;
-            align-items: center;
-            border-radius: 100px;
-            margin: 10px 0;
-            cursor: pointer;
-            // transition: .3s;
-            // -webkit-animation:cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s;
+          margin-left: 12%;
+          -moz-box-shadow: 5px 5px 10px rgb(177, 177, 177);
+          -webkit-box-shadow: 5px 5px 10px rgb(177, 177, 177);
+          box-shadow: 5px 5px 10px rgb(177, 177, 177);
+      }
 
-        
-            margin-left: 12%;
-            -webkit-box-shadow: 5px 5px 10px rgb(177, 177, 177);
-            -moz-box-shadow: 5px 5px 10px rgb(177, 177, 177);
-        }
-
-        .rad-label:hover,
-        .rad-label:focus-within {
-            background: rgba(0, 0, 0, 0.082);
+      .rad-label:hover,
+      .rad-label:focus-within {
+          background: rgba(0, 0, 0, 0.082);
+      }
+      
+      .rad-input {
+          opacity: 0;
         }
         
-        .rad-input {
-            opacity: 0;
-          }
-          
-          .rad-design {
-            width: 13px;
-            height: 12px;
-            border-radius: 100px;
-            background: #6231EC;
-            position: relative;
-          
-        }
-        .rad-design::before {
-            content: '';
-            display: inline-block;
-            width: inherit;
-            height: inherit;
-            border-radius: inherit;
-            background: rgb(255, 255, 255);
-            transform: scale(1.1);
-            transition: .3s;
-            border: solid #6231EC;
-        }
-  }
-  
-  
-  
-  .rad-input:checked+.rad-design::before {
-    transform: scale(0);
-   
-  }
-  .rad-text {
-    color: #6231EC;
-    margin-left: 14px;
-    font-size: 12px;
-    font-weight: 100;
-    transition: .3s; 
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-  
-  }
-  .rad-input:checked~.rad-text {
-    color: hsl(0, 0%, 8%);
-    
-  }
-  .rad-input:checked~{
-    color: hsl(0, 0%, 8%);
-    
-  }
+        .rad-design {
+          width: 13px;
+          height: 12px;
+          border-radius: 100px;
+          background: #6231EC;
+          position: relative;
+        
+      }
+      .rad-design::before {
+          content: '';
+          display: inline-block;
+          width: inherit;
+          height: inherit;
+          border-radius: inherit;
+          background: rgb(255, 255, 255);
+          transform: scale(1.1);
+          transition: .3s;
+          border: solid #6231EC;
+      }
+}
+.rad-input:checked+.rad-design::before {
+  transform: scale(0);
+ 
+}
+.rad-text {
+  color: #6231EC;
+  margin-left: 14px;
+  font-size: 12px;
+  font-weight: 100;
+  transition: .3s; 
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 
+}
+.rad-input:checked~.rad-text {
+  color: hsl(0, 0%, 8%);
   
+}
+.rad-input:checked~{
+  color: hsl(0, 0%, 8%);
+  
+}
+// after the checkbox is checked, the content fades out then reappears
+.rad-input:checked~.rad-text {
+  // opacity: 0;
+  transition: .3s;
+}
+.rad-input:checked~.rad-text:after {
+  content: '✓';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  color: #6231EC;
+  transition: .3s;
+  
+}
+.rad-input:checked~.rad-text:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #6231EC;
+  transform: scale(0);
+  transition: .3s;
+}
+
