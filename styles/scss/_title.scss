@@ -1,0 +1,31 @@
+.hero__title{
+
+    width: 230px;
+    position: absolute;
+    top: 256px;
+    left: 50px;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
+    margin: 63px;
+
+}
+
+.divSubs{
+    position: absolute;
+    top: 600px;
+    left: 112px;
+    font-size: 1rem;
+    font-weight:bold;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.hero__subtitle{
+    padding: 1px;
+    margin: 1px;
+    color: whitesmoke;
+}

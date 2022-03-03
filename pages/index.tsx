@@ -13,27 +13,23 @@ import Footer from '../components/Footer'
 import Frame13 from '../components/Frame13'
 import Partnerlogo from '../components/Partnerlogo'
 
-
 const Home: NextPage = () => {
-
   return (
     <>
       <Hero img='/image1.png' title='ClimateScience Olympiad2022' tag='AGES <16 17-20 & 21-25,$15000 PRIZE POOL' subtitle='Who is ClimateScience?,Visit our main website to find out more.'
-        button='Participate now'
-      />
+        button='Participate now'/>
       <div className='grid'>
         <h1>Finding the solutions to climate change</h1>
         <p>The ClimateScience Olympiad is a global problem-solving competition <br /> that encourages and empowers young people to find solutions <br /> to the effects and causes of climate change.
         </p>
         <iframe src='https://www.youtube.com/embed/eSAar0cCaTA?autoplay=1&mute=0&controls=0'
-        frameBorder='0'
-        width="800"
-        height="450"
-        allow='autoplay; encrypted-media'
-        allowFullScreen
-        title='video'
-        
-/>
+          frameBorder='0'
+          width="800"
+          height="450"
+          allow='autoplay; encrypted-media'
+          allowFullScreen
+          title='video'
+        />
       </div>
 
       <div className='grid2'>
@@ -51,14 +47,13 @@ const Home: NextPage = () => {
 
       <div className='cards'>
         <GridCard
-        className='gridCards'
+          className='gridCards'
           logo='image4.png'
           title='Qualifiers'
           tag="ONLINE / ON PAPER, Online"
           text2='The qualifier round is a 20-minute exam. You can do this online right now, later, or as a student at your schooL The exam can be taken on your computer or smartphone, or on paper if you participate in a schooL Individual schools will be invited to register their events. Those events allow schools to host wafflers for all participants at once. Upon verificaton, schools can also get printable versions of the sheets and conduct exams in paper form. Each person can participate up to 4 times. If a participant is found to have participated more than 4 times they will be disqualified. All participants will receive a certificate, and top participants a speciaL honour. 
         Registration for CS022 opening soon.'
           text='Register until 10th Aug 2022.' />
-
         <GridCard
           logo='image5.png'
           title='Quarter Finals'
@@ -81,7 +76,6 @@ const Home: NextPage = () => {
         • FAQs 
         "
         />
-
         <GridCard
           logo='image7.png'
           title='The Final'
@@ -93,15 +87,14 @@ const Home: NextPage = () => {
         />
       </div>
 
-
       <div className='guide-div'>
         <h1 className='text-el1'>Still not sure what to expect?</h1>
         <p>Visit our participant advice page which has been <br /> specifically designed to help you on your journey <br /> through the qualifier and quarter finals.</p>
 
       </div>
       <button>Participant Guide</button>
+      
       <Frame13 />
-
 
       <p className='FAQ'>Frequently asked questions</p>
       <div className='grid3'>
@@ -117,7 +110,6 @@ const Home: NextPage = () => {
         <p className='awards-text'>Watch the 2021 ClimateScience Olympiad Awards Ceremony here</p>
         <button className='btn-winners'>Meet the CSO21 Winners</button>
       </div>
-
 
       <div className='grid4'>
         <h1>CS022 Judges</h1>
