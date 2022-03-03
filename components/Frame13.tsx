@@ -2,7 +2,7 @@ export default function Frame13() {
     return (
         <>
             <div id="frame13" className="container">
-                <p>Which of the below statements about electricity is not true?</p>
+                <p>Which of the below statements<br/> about electricity is not true?</p>
                 <div className="choices">
                     <label className="rad-label">
                         <input type="radio" className="rad-input" name="rad" />

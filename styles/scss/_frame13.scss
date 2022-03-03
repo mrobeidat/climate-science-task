@@ -2,26 +2,37 @@
 #frame13{
     float: right;
     margin-top: -10.5%;
-    margin-right: 2% ;
+    margin-right: 15% ;
+    p{
+      color:#818181
+    }
 }
 
 .container{
+    margin-top: -7%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    width:50%;  
+    width:30%;  
     border-radius: 50px;
     text-align: center;
     padding: 1%;
-    margin-left: 25%;
 
+          
+    // @-webkit-keyframes alternate-reverse{
+    //   0%{height:100px}
+    //   10%{height:50px}
+    // }
+    
         .rad-label {
-            width: 438px;
+            width: 320px;
             height: 35.44px;
             display: flex;
             align-items: center;
             border-radius: 100px;
             margin: 10px 0;
             cursor: pointer;
-            transition: .3s;
+            // transition: .3s;
+            // -webkit-animation:cubic-bezier(0.25, 0.46, 0.45, 0.94) 5s;
+
         
             margin-left: 12%;
             -webkit-box-shadow: 5px 5px 10px rgb(177, 177, 177);
@@ -38,7 +49,7 @@
           }
           
           .rad-design {
-            width: 12px;
+            width: 13px;
             height: 12px;
             border-radius: 100px;
             background: #6231EC;
@@ -57,9 +68,6 @@
             border: solid #6231EC;
         }
   }
-  
-  
-  
   
   
   
@@ -84,3 +92,5 @@
     color: hsl(0, 0%, 8%);
     
   }
+
+  

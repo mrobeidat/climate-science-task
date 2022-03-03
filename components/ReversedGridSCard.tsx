@@ -20,7 +20,10 @@ export default function GridCard({ logo, title, text, tag, text2, text3, text4, 
     text2?.split(',').map((item: string) => Tesxts.push(item))
     return (
         <div className="gridsCard">
-                <div></div>
+            <div></div>
+            <div className="gridsCard2">
+                <img src={logo} alt="gridsCardImage" />
+            </div>
             <div className="gridsCard1">
 
                 <h1>{title}</h1>
@@ -29,21 +32,15 @@ export default function GridCard({ logo, title, text, tag, text2, text3, text4, 
                 <p className='time' >{text}</p>
                 <div className='tg'>
 
-                {Tags?.map((tag, i) => (<div key={i} className="heroTag">{tag}</div>))}
+                    {Tags?.map((tag, i) => (<div key={i} className="heroTag">{tag}</div>))}
                 </div>
                 {Tesxts?.map((text, i) => (<p key={i} >{text}</p>))}
                 {list && < ul >
                     {List?.map((item, i) => (<><Link href='/'><li key={i} >{item}</li></Link> </>))}
                 </ul>}
                 <p >{text6}</p>
-
             </div>
-            <div className="gridsCard2">
-
-                <img src={logo} alt="gridsCardImage" />
-
-            </div>
-                <div></div>
+            <div></div>
         </div>
     );
 }

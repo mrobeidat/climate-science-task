@@ -18,8 +18,7 @@ export default function Hero({ tag, img, title, subtitle, button, text }: HeroPr
                 {Tags?.map((tag, i) => (<div key={i} className="hero__tag">{tag}</div>))}
             </div>
             <h1 className="hero__title">{title}</h1>
-            
-
+        
             <button className="hero__button">{button}</button>
             <div className="divSubs" >
 

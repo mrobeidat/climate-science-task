@@ -5,25 +5,17 @@
 @import './cards';
 @import './frame13';
 @import './footer';
+@import './grids';
+@import './_GirdsCards';
+@import './_ViewMore';
 
-.grid{
-    display: grid;
-    place-items:  center;
-    color: #6231EC;
-    font-size: 25px;
-    height : 500px;
-    text-align: center;
-}
-.grid2{
-    place-items:center;
-    color: #6231EC;
-    text-align : center;
-    display: grid; 
-    grid-template-columns: 1fr 1fr; 
-    grid-gap: 10px; 
-    width: 50%; 
-    margin-top: 20%;
-    margin-left: 25%;
+  hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;               
+  background-color:#000;
+  height: 1px;
 }
 .hero__text{
     color: #6231EC;
@@ -38,10 +30,7 @@
     margin-left: 7%;
     
 }
-button{
-    left:7%;
-    align-items: center;
-}
+
 
 
 .reg-text{
@@ -55,7 +44,7 @@ button{
 }
 .btn-particibate{
     margin-left: 100% - 115%;
-    margin-top: -20px;
+    margin-top: 6%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
@@ -73,6 +62,10 @@ button{
     color: #FFFFFF;
     background-color: #6231EC;
     padding: 50px;
+    button{
+        color: #6231EC;
+        background-color: #FFFFFF;
+    }
 }
 .btn-winners{
     margin-left: 100% - 115%;
@@ -92,18 +85,42 @@ button{
     font-size: 15px;
     height : 500px;
     text-align: center;
+ 
 }
-.img-grid{
-    width: 80%;
-    display:inline-flex;
+
+.our-partners{
+    margin-top: 0%;
+    margin-bottom: -20%;
 }
+
 .partnerlogo{
     display:grid;
     grid-template-columns: 1fr 1fr; 
 
 }
-.viewmore-btn{
-   margin-left: 50px;
-}
-
+.card-img1{
+    width: 100%;
+    height: 100%;
   
+}
+.text-tata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #6231EC;
+    margin-bottom: 6vw;
+}
+.guide-div{
+    color: #6231EC;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+}
+  
+.lowerhero{
+    width: 100%;
+}

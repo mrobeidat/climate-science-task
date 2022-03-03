@@ -7,5 +7,9 @@ export default function Header() {
     <a><img src='/logo.svg' alt="" /></a>
             <a href="/Team">Team</a>
             <a href="/Winners">2021 Winners</a>
+            <select className="sel">
+                <option > 🇬🇧 English </option>
+                <option > 🇸🇦 Arabic </option>
+            </select>
     </nav>  )
 }
