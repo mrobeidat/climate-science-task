@@ -16,7 +16,7 @@ const Home: NextPage = () => {
         <h1>Finding the solutions to climate change</h1>
         <p>The ClimateScience Olympiad is a global problem-solving competition <br /> that encourages and empowers young people to find solutions <br /> to the effects and causes of climate change.
         </p>
-        <iframe src='https://www.youtube.com/embed/eSAar0cCaTA?autoplay=1&mute=1&controls=0'
+        <iframe src='https://www.youtube.com/embed/eSAar0cCaTA?autoplay=1&mute=0&controls=0'
           frameBorder='0'
           width="800"
           height="450"
