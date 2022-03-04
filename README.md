@@ -17,8 +17,6 @@ running.
 
 After running the above commands you can review the actual work.
 
-## Developing
-
 ## Built With
 (React, NextJS, TypeScript)
 
