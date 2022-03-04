@@ -1,0 +1,59 @@
+// Team-Page
+
+.section-1-Team{
+    background-color:$GlobalColor;
+    padding: 2%;
+    .text-team1{
+        text-align: center;
+        color: #ffff;
+        .text{
+            color: #ffff;
+        }
+    }
+    .img-grid-team{
+        display: grid;
+        width:80%;
+        grid-template-columns: repeat(4, 1fr);
+        text-align: center;
+        margin-left: 8%; 
+        grid-auto-rows: auto;
+        color: #ffff;
+    .home-card-header-subtitle {
+        color:#ffff
+    }
+}
+
+
+}
+.section-2-Team1{
+    text-align: center;
+    color:$GlobalColor;
+    .text{
+        color: black;
+    }
+}
+
+
+.Section-2-Team2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:$GlobalColor;
+    margin-bottom: 2vw;
+  
+}
+
+.img-grid-team2{
+    display: grid;
+    width:80%;
+    grid-template-columns: repeat(4, 1fr);
+    text-align: center;
+    margin-left: 8%; 
+    grid-auto-rows: auto;
+    color: black;
+    .home-card-header-subtitle {
+        color:black
+    }
+}

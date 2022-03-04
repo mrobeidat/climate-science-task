@@ -1,0 +1,85 @@
+// Winners-Page
+
+.first-section-photos{
+    display: grid;
+    margin: 10%;
+    
+}
+
+.first-winners-section{
+    background-color:$GlobalColor;
+    padding: 120px;
+
+    .heading-title{
+        text-align: center;
+    }
+
+    .girls-img{
+        margin-left: 200px;
+    }
+
+    h1{
+        color:#ffff;
+        margin-top: -100px;
+    }
+
+    .photo-desc{
+        color: #ffff;
+        margin: 70px;
+        max-width: 400px;
+        margin-top: -250px;
+        float: right;
+        margin-inline: 220px;
+        margin-block-end: 70px;
+    }
+
+    p{        
+        color:#ffff;
+    }
+
+    .home-card-header-subtitle{
+        margin-left: 225px;
+
+    }
+    
+    h2{
+        color: #ffff;
+        margin-inline: 200px;
+    }
+   
+}
+
+.winners-video{
+    text-align: center;
+    margin-top: -200px;
+}
+
+.winners-second-sec{
+    text-align: center;
+
+    h1{
+        color:$GlobalColor;
+    }
+  
+}
+
+.final-sec-winners{
+    margin-top: 3%;
+    display: grid;
+    display:inline-flex;
+    column-gap:13vw;
+    h2{
+        color:$GlobalColor
+    }
+}
+
+.final-section{
+    margin-top: 8%;
+    text-align: center;
+    h1{
+        color:$GlobalColor
+    }
+ 
+   
+}
+

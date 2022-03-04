@@ -19,12 +19,12 @@ export default function GridCard({ logo, title, text, tag, text2, text3, text4, 
     const Tesxts: string[] = []
     text2?.split(',').map((item: string) => Tesxts.push(item))
     return (
-        <div className="gridsCard">
+        <div className="section-3">
             <div></div>
-            <div className="gridsCard2">
+            <div className="section-3-p1">
                 <img src={logo} alt="gridsCardImage" />
             </div>
-            <div className="gridsCard1">
+            <div className="section-3-p1">
 
                 <h1>{title}</h1>
                 <hr />

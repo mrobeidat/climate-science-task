@@ -1,34 +1,46 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<img src="public/logo.svg" alt="Logo of the project" align="right">
 
-## Getting Started
+# About The Task
 
-First, run the development server:
+This is a Trial Task given by ClimateScience Organization.
 
-```bash
-npm run dev
-# or
-yarn dev
+## Installing / Getting started
+
+A quick introduction of the minimal setup you need to get started &
+running.
+
+```
+1- clone the repo.
+2. npm install.
+3. npm run dev.
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+After running the above commands you can review the actual work.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+## Developing
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## Built With
+(React, NextJS, TypeScript)
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Prerequisites
+In order to run the project on live server you need to install the dependencies that exists in the JSON file. or you can just run ```npm install``` and it will install them for you automatically.
 
-## Learn More
+## Setting up Dev
 
-To learn more about Next.js, take a look at the following resources:
+Here's a brief intro about what you should do as a contributor in order to start developing
+the project further:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1- First, You should fork the repo.
+2- Clone it into your local machine.
+3- Start making your own changes.
+4- Make your own branch, and choose a meaningful name.
+5- The last step is to make a pull request to the main repo.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```shell
+git clone git@github.com:mrobeidat/climate-science-task.git
+cd climate-science-task/
+npm install
+```
+## Deployed Link
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Climate Sience Task](https://climate-science-task-updated.vercel.app/)

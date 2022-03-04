@@ -12,7 +12,7 @@ export default function Team() {
                 button="Participate now"
             // text='Who is ClimateScience? , Visit our main website to find out more.'
             />
-            <div className='grid5'>
+            <div className='section-1-Team'>
                 <div className='text-team1'>
                     <h1>CSO22 Finals Judges</h1>
                     <p className='text'>Our judges are trusted members of the climate science industry.<br />
@@ -23,30 +23,30 @@ export default function Team() {
                 </div>
             </div>
 
-            <div className='grid6'>
-                <div className='text-team2'>
-                <h1>CSO22 Pre-final Judges</h1>
-                <p>Our internal team of experts judge the rounds before the finals</p>
+            <div className='section-2-Team1'>
+                <div>
+                    <h1>CSO22 Pre-final Judges</h1>
+                    <p>Our internal team of experts judge the rounds before the finals</p>
                 </div>
                 <div className='img-grid-team2'>
                     {[...Array(8)].map((e, i) => <HomeCard key={i} image='girl-card.png ' title='Sophie Gallois' description='Former Deputy Exec. Directorat Unicef UK' />)}
                 </div>
-
             </div>
 
-            <div className='text-tata'>
+            <div className='Section-2-Team2'>
                 <h1>Apply to become a judge</h1>
-                <p>We’re looking for industry professionals to judge the ClimateScience<br/>Olympiad 2022 proposals. If you would like to apply, please fill out our<br/>form to register your interest.</p>
+                <p>We’re looking for industry professionals to judge the ClimateScience<br />Olympiad 2022 proposals. If you would like to apply, please fill out our<br />form to register your interest.</p>
                 <button>Apply to become a judge</button>
-                </div>
-                
-                <div className='text-team2'>
+
+                <br /><br /><br /><br />
                 <h1>The ClimateScience Olympiad team</h1>
                 <p>Our internal team of experts judge the rounds before the finals</p>
-                </div>
-                <div className='img-grid-team2'>
-                    {[...Array(16)].map((e, i) => <HomeCard key={i} image='girl-card.png ' title='Sophie Gallois' description='Former Deputy Exec. Directorat Unicef UK' />)}
-                </div>
+            </div>
+
+            <div className='img-grid-team2'>
+                {[...Array(16)].map((e, i) => <HomeCard key={i} image='girl-card.png ' title='Sophie Gallois' description='Former Deputy Exec. Directorat Unicef UK' />)}
+            </div>
+
         </div>
     );
 }

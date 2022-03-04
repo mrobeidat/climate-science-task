@@ -1,15 +1,15 @@
 
-@import './_title';
-@import './_tags';
-@import './_button.scss';
-@import './cards';
+@import './_titles';
+@import './_buttons.scss';
 @import './frame13';
 @import './footer';
-@import './grids';
-@import './_GirdsCards';
-@import './_ViewMore';
+@import './_index';
+@import './_ViewMoreSection';
+@import './_winners';
+@import './_Team';
+@import './variables.scss';
 
-  hr {
+hr {
   border: 0;
   clear:both;
   display:block;
@@ -17,75 +17,13 @@
   background-color:#000;
   height: 1px;
 }
-.hero__text{
-    color: #6231EC;
-}
-
-.text-el1{
-    color: #6231EC;
-}
-
-.guide-div{
-    margin-top: 7%;
-    margin-left: 7%;
-    
-}
-
-
-
 .reg-text{
     margin-top: -5%;
     width: 60%;
 }
-.FAQ{
-    // text-align: center;
-    margin-top:100px;
-    margin-left: 350px;
-}
-.btn-particibate{
-    margin-left: 100% - 115%;
-    margin-top: 6%;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
-}
-.grid3{
-    display: grid;
-    place-items:  center;
-    color: #6231EC;
-    font-size: 25px;
-    height : 500px;
-    text-align: center;
-}
-
-.winners-sec{
-    text-align: center;
-    color: #FFFFFF;
-    background-color: #6231EC;
-    padding: 50px;
-    button{
-        color: #6231EC;
-        background-color: #FFFFFF;
-    }
-}
-.btn-winners{
-    margin-left: 100% - 115%;
-    margin-top: 20px;
-    background-color: whitesmoke;
-    color: #6231EC;
-    margin-bottom: 1%;
-    font-weight: bold;
-}
 .awards-text{
     color: #FFFFFF;
-}
-.grid4{
-    display: grid;
-    place-items:  center;
-    color: #6231EC;
-    font-size: 15px;
-    height : 500px;
-    text-align: center;
- 
 }
 
 .our-partners{
@@ -93,34 +31,9 @@
     margin-bottom: -20%;
 }
 
-.partnerlogo{
-    display:grid;
-    grid-template-columns: 1fr 1fr; 
-
-}
-.card-img1{
+.Global-img{
     width: 100%;
     height: 100%;
+}
+
   
-}
-.text-tata{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: #6231EC;
-    margin-bottom: 6vw;
-}
-.guide-div{
-    color: #6231EC;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    text-align: left;
-}
-  
-.lowerhero{
-    width: 100%;
-}

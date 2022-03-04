@@ -13,7 +13,7 @@ export default function Hero({ tag, img, title, subtitle, button, text }: HeroPr
     subtitle?.split(',').map((item: string) => Subtitle.push(item))
     return (
         <section className="hero">
-            <img className="card-img1" src={img} alt="Hero " />
+            <img className="Global-img" src={img} alt="Hero " />
             <div className="divTags" >
                 {Tags?.map((tag, i) => (<div key={i} className="hero__tag">{tag}</div>))}
             </div>

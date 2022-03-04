@@ -10,7 +10,6 @@ export default function Partnerlogo({ Partnerlogo}: Props) {
             <div className="partner-logo-header">
                 <img src={Partnerlogo} alt="" />
             </div>
-
         </div>
     );
 }

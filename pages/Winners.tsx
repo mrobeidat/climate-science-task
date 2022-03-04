@@ -7,23 +7,25 @@ export default function Winners() {
 
     return (
         <div>
-
             <Hero className='winners-page' img='/image1.png' title='CSO21 Winners' subtitle="Meet the winners of the ClimateScience Olympiad 2021" button='Participate now' />
             <div className='first-winners-section'>
                 <div className='heading-title'>
                     <h1>1st Place</h1>
                     <p>Alexandra and Eleonore won the CSO21 with their inspiring proposal on a<br /> <b>‘Global Carbon Tax Scheme’</b></p>
                 </div>
+                <div className='first-section-photos'>
                 <div className='photos-sec'>
 
                     <HomeCard image='girl-card.png ' title='Eleonore Vecchioli' description='Aged 14, UK' />
                     <p className='photo-desc'>“The CSO is an unrivalled opportunity to develop your environmental knowledge and meet people with similar interests. It asks you to think beyond the traditional curriculum and gives you a glimpse into the decisions world leaders have to make about the climate.<br /><br />
                     The CSO will stretch your environmental knowledge and enable you to become a better essay writer and scientist.”</p>
-
+                </div>
+                <div className='photos-sec'>
                     <HomeCard image='girl-card.png ' title='Alexandra Pilz' description='Aged 14, UK' />
                     <p className='photo-desc'>“Winning the ClimateScience Olympiad was so exciting. We thank ClimateScience for the opportunity and for the amazing community that was created out of the competion.
                     <br/><br/>
                     My advice to anyone applying in 2022 would be to make sure you answer the question and, most importantly, have fun!”</p>
+                </div>
                 </div>
             </div>
             <div className='winners-video'>

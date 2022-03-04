@@ -1,24 +1,18 @@
 import type { NextPage } from 'next'
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-import Header from '../components/Header'
 import Hero from '../components/Hero'
 import MidCard from '../components/MidCard'
 import GridCard from '../components/GridCards'
 import HomeCard from '../components/HomeCard'
 import Link from 'next/link'
 import Content from '../components/ViewMore'
-import Footer from '../components/Footer'
 import Frame13 from '../components/Frame13'
-import Partnerlogo from '../components/Partnerlogo'
 import ReversedGridSCard from '../components/ReversedGridSCard'
 const Home: NextPage = () => {
   return (
     <>
       <Hero img='/image1.png' title='ClimateScience Olympiad2022' tag='AGES <16 17-20 & 21-25,$15000 PRIZE POOL' subtitle='Who is ClimateScience?,Visit our main website to find out more.'
         button='Participate now' />
-      <div className='grid'>
+      <div className='section-1'>
         <h1>Finding the solutions to climate change</h1>
         <p>The ClimateScience Olympiad is a global problem-solving competition <br /> that encourages and empowers young people to find solutions <br /> to the effects and causes of climate change.
         </p>
@@ -31,7 +25,7 @@ const Home: NextPage = () => {
         />
       </div>
 
-      <div className='grid2'>
+      <div className='section-2'>
         <MidCard
           logo='image2.png ' title='Requirements'
           text='Free to enter  Age groups: <16, 17-20, 21-25'
@@ -46,7 +40,7 @@ const Home: NextPage = () => {
 
 
       <GridCard
-        className='gridCards'
+        className='section-3'
         logo='image4.png'
         title='1.Qualifiers'
         tag="ONLINE / ON PAPER, Online"
@@ -59,8 +53,8 @@ const Home: NextPage = () => {
         text="🕝 Feb-Aug 2022. "
         text2='The best 10% of all qualifier participants advance to the Quarter Finals.
         Quarter Finals follow the same quick-question format that Qualifiers follow. '/>
-   
-     
+
+
       <GridCard
         logo='image6.png'
         title='3.Semi-Finals'
@@ -83,33 +77,32 @@ const Home: NextPage = () => {
         text2="If you make it to the final you have essentially won already. Why?, 
         Every finalist wit be awarded a Bronze Medal. the top 25 and top 10 will be awarded a Silver and Gold Medal respectively. The top teams split the prize pool of $15000 (USD)., 
         Finals require a written exam a presentation and an Interview. As in 2021 we hope to conduct the winners ceremony at the United Nations' Climate Summit (COP) and give the top teams the opportunity to present their solutions on a world stage." />
-  
+
 
       <div className='guide-div'>
         <h1>Still not sure what to expect?</h1>
         <p>Visit our participant advice page which has been <br /> specifically designed to help you on your journey <br /> through the qualifier and quarter finals.</p>
 
-     
-      <button>Participant Guide</button>
+        <button>Participant Guide</button>
       </div>
       <Frame13 />
 
       <p className='FAQ'>Frequently asked questions</p>
-      <div className='grid3'>
+      <div className='section-4'>
         <h1>Register now!</h1>
         <p className='reg-text'>Work on your own, or in pairs, and compete against youths from around the world to find solutions to climate change.
-          <br/><br/>The top 10 teams will win a share of the $15,000 prize pool</p>
+          <br /><br />The top 10 teams will win a share of the $15,000 prize pool</p>
         <button>Participate now</button>
       </div>
 
-      <img src="image8.png" alt=""  className='lowerhero'/>
-      <div className='winners-sec'>
+      <img src="image8.png" alt="" className='lowerhero' />
+      <div className='section-5'>
         <h1>ClimateScience 2021 Winner</h1>
         <p className='awards-text'>Watch the 2021 ClimateScience Olympiad Awards Ceremony here</p>
         <button>Meet the CSO21 Winners</button>
       </div>
 
-      <div className='grid4'>
+      <div className='section-6'>
         <h1>CS022 Judges</h1>
         <p className='judges-text'>Our judges are trusted members of the climate science industry.<br />
           Interested in becoming a CSO judge? Apply here.</p>
@@ -117,14 +110,12 @@ const Home: NextPage = () => {
           {[...Array(4)].map((e, i) => <HomeCard key={i} image='girl-card.png ' title='Sophie Gallois' description='Former Deputy Exec. Directorat Unicef UK' />)}
         </div>
         <button >Meet the CSO team</button>
-      </div>
-      <div className='grid4' >
         <h1 className='our-partners'>Our partners</h1>
-        <p> Want to become a CSO partner?  <Link href='#'>Apply here.</Link> </p>
+        
       </div>
-      <div className='test'>
-      <Content />
-      </div>
+      <p className='judges-text2'> Want to become a CSO partner?  <Link href='#'>Apply here.</Link> </p>
+        <Content />
+
     </>
   )
 }
