@@ -6,7 +6,7 @@ export default function Frame13() {
         setInterval(() => {
             setChecked(!checked);
         
-        }, 3000);
+        }, 5000);
         
     });
 
