@@ -14,8 +14,8 @@ nav {
   height: fit-content;
   display: flex;
   align-items: center;
-justify-content: space-evenly;
-text-align: center;
+  justify-content: space-evenly;
+  text-align: center;
 
 
 
@@ -23,6 +23,8 @@ text-align: center;
 nav .sel{
 border:none;
 border-radius: 40px;
+margin-right: -11.5%;
+margin-left: -3%;
 }
 nav a{
 text-decoration: none;
@@ -30,5 +32,6 @@ text-decoration: none;
 nav a > img {
 width:132px;
 height:72px;
+
 }
 
