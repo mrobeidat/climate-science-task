@@ -29,7 +29,7 @@ export default function Winners() {
                 </div>
             </div>
             <div className='winners-video'>
-                <iframe src='https://www.youtube.com/embed/eSAar0cCaTA?autoplay=1&mute=1&controls=0'
+                <iframe src='https://www.youtube.com/embed/eSAar0cCaTA?autoplay=1&mute=0&controls=0'
                     frameBorder='0'
                     width="800"
                     height="450"
