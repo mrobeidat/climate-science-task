@@ -10,10 +10,8 @@ import HashLoader from "react-spinners/HashLoader";
 import { css } from "@emotion/react";
 
 
-
-
 export default function MyApp({ Component, pageProps }: AppProps) {
-  
+
   const override = css`
     display: flex;
     justify-content: center;

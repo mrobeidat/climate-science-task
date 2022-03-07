@@ -22,6 +22,7 @@
     color: #f5f5f5;
 
 }
+
 .section-1{
     display: grid;
     place-items:  center;
@@ -30,6 +31,7 @@
     height : 500px;
     text-align: center;
 }
+
 .section-2{
     place-items:center;
     color:$GlobalColor;
@@ -83,7 +85,6 @@
   
   
   li{ 
-  
     cursor: pointer;
     color:$GlobalColor;
     margin: 1rem;
@@ -93,8 +94,8 @@
   .tg{
     display: flex;
     align-items: left !important;
-  
   }
+
   .heroTag{
     margin: 0.5rem;
     padding: 5px;
@@ -105,7 +106,6 @@
     border-radius: 40px;
     width:fit-content;
   }
-      
   }
   
   .section-3-p2{
@@ -115,7 +115,6 @@
         height: 100%;
       }
   }
-
 
 .guide-div{
     color:$GlobalColor;
@@ -127,7 +126,15 @@
     margin-top: 7%;
     margin-left: 7%;
     p{
-      color: #6231EC;
+      color: $GlobalColor;
+    }
+
+    button{
+      &:hover{
+        cursor:pointer;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+      }
     }
 }
 
@@ -158,6 +165,12 @@
     button{
         color: #6231EC;
         background-color: #FFFFFF;
+
+        &:hover{
+          cursor:pointer;
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+          0 6px 20px 0 rgba(0, 0, 0, 0.19);;
+        }
     }
 }
 
@@ -168,29 +181,14 @@
     font-size: 15px;
     height : 500px;
     text-align: center;
-    margin-bottom: 12%;
+    margin-bottom: 12%;   
 }
 
 .judges-text2{
     text-align: center;
 }
 
-
 .img-grid{
     width: 70%;
     display:inline-flex;
 }
-
-
-
-// .text-team3{
-//     text-align: center;
-//     color: #6231EC;
-//     .text{
-//         color: black;
-//     }
-//     .btn{
-//         margin-right: 14%;
-//         margin-bottom: 5%;
-//     }
-// }
