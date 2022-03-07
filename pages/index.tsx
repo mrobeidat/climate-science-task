@@ -81,7 +81,7 @@ const Home: NextPage = () => {
 
       <div className='guide-div'>
         <h1>Still not sure what to expect?</h1>
-        <p>Visit our participant advice page which has been <br /> specifically designed to help you on your journey <br /> through the qualifier and quarter finals.</p>
+        <p className='original-text'>Visit our participant advice page which has been <br /> specifically designed to help you on your journey <br /> through the qualifier and quarter finals.</p>
 
         <button>Participant Guide</button>
       </div>
