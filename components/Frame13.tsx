@@ -14,8 +14,18 @@ export default function Frame13() {
 
     return (
         <>
-            <div className="frame">
-                <div className="container">
+            <div
+            data-aos="fade-left"
+            data-aos-offset="200"
+            data-aos-delay="50"
+            data-aos-duration="1000"
+            data-aos-easing="ease-in-out"
+            data-aos-mirror="true"
+            data-aos-once="true"
+            data-aos-anchor-placement="top-center"
+                              
+            className="frame">
+                <div  className="container">
                     <p>Which of the below statements
                         <br /> about electricity is not true?
                     </p>

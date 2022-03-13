@@ -22,7 +22,16 @@ export default function GridCard({ logo, title, text, tag, text2, text3, text4, 
         <div className="section-3">
             <div></div>
             <div className="section-3-p1">
-                <img src={logo} alt="gridsCardImage" />
+                <img
+                data-aos="zoom-in-down"
+                data-aos-offset="200"
+                data-aos-delay="50"
+                data-aos-duration="1000"
+                data-aos-easing="ease-in-out"
+                data-aos-mirror="true"
+                data-aos-once="true"
+                data-aos-anchor-placement="top-center"
+                src={logo} alt="gridsCardImage" />
             </div>
             <div className="section-3-p1">
 
